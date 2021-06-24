@@ -1,0 +1,60 @@
+/* backgrounds */
+body {
+  background-image: url(../images/bricks.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/* fuentes y colores*/
+/* backgrounds */
+header nav {
+  background-image: url(../images/black2.png); }
+  header nav div a {
+    color: whitesmoke !important;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.dropdown-menu {
+  background-color: black; }
+
+.dropdown-item:hover {
+  color: black !important;
+  text-decoration: underline; }
+
+/* fuentes y colores*/
+.nosotros {
+  color: whitesmoke !important;
+  color: green;
+  text-decoration: none; }
+  .nosotros h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  .nosotros p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+/* fuentes y colores*/
+.central {
+  color: whitesmoke !important; }
+  .central h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  .central h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  .central div h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  .central div p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px; }
+
+/* fuentes y colores*/
+.menu {
+  font-family: 'Times New Roman', Times, serif;
+  color: aqua; }
+
+/* fuentes y colores*/
+.evento {
+  color: green; }
+  .evento h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }

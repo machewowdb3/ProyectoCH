@@ -1,0 +1,26 @@
+@import "../base/fonts";
+@import "../base/back";
+
+header {
+    nav {
+        background-image: $b-image-black2;
+
+        div {
+            a {
+                color: $f-color;
+                font-family: $f-family-tittles;
+            }
+        }
+    }
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    &:hover {
+        color: black !important;
+        text-decoration: underline;
+    }
+}

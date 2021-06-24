@@ -1,0 +1,28 @@
+/* fuentes y colores*/
+$f-color: whitesmoke !important;
+$f-family-parraf: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$f-family-tittles: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+@mixin letters-menu {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    
+}
+$maps: (
+    parraf-new: red,
+    tittle-new: green,
+
+    border-top: 1px,
+    border-bottom: 4px,
+);
+
+@mixin condicion($false) {
+    color: $false;
+
+    @if $false ==red {
+        text-decoration: line-through;
+    } @else {
+        text-decoration: none;
+    }
+}

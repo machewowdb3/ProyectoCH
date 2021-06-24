@@ -1,0 +1,19 @@
+@import "../base/fonts";
+
+.central {
+    color: $f-color;
+    h1 {
+        font-family: $f-family-tittles;
+    }
+    h2{
+        font-family: $f-family-tittles;
+    }
+    div {
+        h3{
+            font-family: $f-family-tittles;
+        }
+        p{
+            font-family: $f-family-parraf;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import "../base/fonts";
+
+.nosotros {
+    color: $f-color;
+
+    h2 {
+        font-family: $f-family-tittles;
+    }
+
+    p {
+        font-family: $f-family-parraf;
+    }
+
+    @include condicion(green);
+}
